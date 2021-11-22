@@ -1,0 +1,65 @@
+.Box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 50%;
+	height: 100px;
+}
+
+.Pagination{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.Btn {
+	padding-top: 10px;
+	cursor: pointer;
+	width: 80px;
+	height: 30px;
+	border-radius: 10px;
+	border: none;
+	background-color: green;
+	margin: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.Btn:hover {
+	background-color: yellowgreen;
+	color: black;
+	transition: 200ms ease-in-out;
+}
+
+.p {
+	font-weight: 1000;
+	font-size: 20px;
+}
+
+.Link {
+	position: absolute;
+	border-radius: 10px;
+	left: 9.5%;
+	text-decoration: none;
+	color: white;
+	width: 100px;
+	padding: 8px;
+	background-color: green;
+}
+
+.Link:hover {
+	background-color: yellowgreen;
+}
+
+@media screen and (max-width: 769px) {
+    .Box{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.Link{
+		position: relative;
+		margin-right:70px ;
+	}
+}
